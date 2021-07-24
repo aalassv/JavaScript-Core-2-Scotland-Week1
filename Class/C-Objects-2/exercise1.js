@@ -7,26 +7,19 @@ let house = {
     },
   };
   
-  /*
-    DO NOT EDIT ANYTHING ABOVE THIS LINE
-  
-    WRITE YOUR CODE BELOW
-  */
-  
   // - change the address of "house" to '51 Berkley Road'
   // - change the previous owners of "house" to ["Brian M.", "Fiona S."]
   // - change the last name of the current owner of "house" to "Montgomery"
-  
-
-
-  
+  house.address = "51 Berkley Road";
+  house.previousOwners= ["Brian M.", "Fiona S."];
+  house.currentOwner.lastName = "Montgomery"; 
   /*
     DO NOT EDIT ANYTHING BELOW THIS LINE
   */
   
-  console.log(
-    `Expected result: 51 Berkley Road. Actual result: ${house.address}`
-  );
+  console.log(`Expected result: 51 Berkley Road. Actual result: ${house.address}`);
+  console.log("Expected result: 51 Berkley Road. Actual result:"+ house.address);
+
   console.log(
     `Expected result: Brian M., Fiona S. Actual result: ${house.previousOwners.toString()}`
   );

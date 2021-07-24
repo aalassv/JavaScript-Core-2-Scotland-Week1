@@ -18,5 +18,6 @@ let dog1 = {
 console.log(dog1.breed);
 
 // Log the name of this dog
+console.log(dog1.name);
 
 
