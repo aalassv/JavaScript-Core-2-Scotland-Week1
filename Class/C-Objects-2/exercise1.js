@@ -24,5 +24,5 @@ let house = {
     `Expected result: Brian M., Fiona S. Actual result: ${house.previousOwners.toString()}`
   );
   console.log(
-    `Expected result: Montgomery. Actual result: ${house.currentOwner.lastName}`
+    `Expected result: Montgomery. Actual result: ${house.currentOwner.lastName}` 
   );

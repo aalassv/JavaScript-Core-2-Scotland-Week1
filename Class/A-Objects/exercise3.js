@@ -11,5 +11,5 @@ food1.colour = "Yellow";
 
 
 // Log the value of the Object's colour
-console.log(food1.colour);
+console.log(food1.colour); 
 

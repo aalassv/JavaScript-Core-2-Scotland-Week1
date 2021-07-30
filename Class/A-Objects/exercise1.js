@@ -10,7 +10,7 @@ let dog1 = {
     happiness: 6
 };
 
-// The properties of the object are all primitive types (String, number or boolean)
+// The properties of the object are all primitive types (String, number or boolean) 
 // What is the type of each property?
 
 

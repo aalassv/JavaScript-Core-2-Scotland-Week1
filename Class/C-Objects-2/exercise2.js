@@ -41,7 +41,7 @@ let kinningParkHouse = {
     DO NOT EDIT ANYTHING BELOW THIS LINE
   */
   console.log(
-    `Expected result: Margaret Conway. Actual result: ${getOwnerFullName(
+    `Expected result: Margaret Conway. Actual result: ${getOwnerFullName( 
       kinningParkHouse
     )}`
   );

@@ -18,5 +18,5 @@ let dog2 = {
 
 // Log the value of each property
 
-console.log(dog2.breed);
-console.log(dog2.name);
+console.log(dog2.breed,dog1.breed);
+console.log(dog2.name,dog1.name);

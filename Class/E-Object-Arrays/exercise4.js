@@ -37,25 +37,29 @@ let restaurant1 = {
   DO NOT EDIT ANYTHING ABOVE THIS LINE
   WRITE YOUR CODE BELOW
   */
-  
+   
   let restaurantFinderApplication = {
     applicationName: "Restaurant Finder",
     applicationVersion: "1.0",
     restaurants: restaurants,
     findAvailableRestaurants: function (numberOfPeople) {
+     
+
       // 1. Complete this method findAvailableRestaurants which takes a number of people in parameter 
       // and returns all the restaurant names which have the required number of seats available at the moment.
-
+      
     },
     findRestaurantServingDish: function (dishName) {
+      let dishResults = restaurants.find(dishMenu => dishMenu.menu === dishName);
+      return dishResults;
       // 2. Complete this method findRestaurantServingDish which takes a dish name in parameter 
       // and returns all the restaurant names serving this dish.
-
     },
     countNumberOfRestaurantsInArea: function (area) {
+      let areaResults = restaurants.filter(cityArea => cityArea.address.area === area);
+      return areaResults;
       // 3. Complete this method countNumberOfRestaurantsInArea which takes an area of Glasgow in parameter (center, west), 
       // and returns the number of restaurants in this area.
-      
     },
   };
   
@@ -83,3 +87,4 @@ let restaurant1 = {
   console.log(
     `Number of restaurants in city centre: Expected result: 2, actual result: ${numberOfRestaurantsInCityCentre}`
   );
+  
