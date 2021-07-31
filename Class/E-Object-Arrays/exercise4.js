@@ -3,7 +3,7 @@ let restaurant1 = {
     totalSeats: 10,
     numberOfCustomers: 8,
     address: {
-      city: "Glasgow",
+      city: "Glasgow",  
       area: "center",
     },
     menu: ["pizza", "calzone", "salad"],
@@ -49,9 +49,11 @@ let restaurant1 = {
       // and returns all the restaurant names which have the required number of seats available at the moment.
       
     },
-    findRestaurantServingDish: function (dishName) {
+    findRestaurantServingDish: function (dishName) { 
       let dishResults = restaurants.find(dishMenu => dishMenu.menu === dishName);
       return dishResults;
+  
+      }
       // 2. Complete this method findRestaurantServingDish which takes a dish name in parameter 
       // and returns all the restaurant names serving this dish.
     },
